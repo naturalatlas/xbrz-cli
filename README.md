@@ -9,7 +9,7 @@ A repackaged version of [T1T4N/xBRZ-cli](https://github.com/T1T4N/xBRZ-cli) with
 
 ### Running
 ```
-$ xbrz [input] [scale] [output] [-quality 0-1000]
+$ xbrz [input] [scale] [output] [-quality 0-100]
 ```
 
 The argument parsing isn't fancy – so make sure to use that format exactly.
