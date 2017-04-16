@@ -7,7 +7,7 @@ CImg.h:
 # final binary
 dist/xbrz: xbrz/xbrz.o xbrz.o
 	@mkdir -p dist
-	g++ -o dist/xbrz xbrz/xbrz.o xbrz.o -ljpeg `libpng-config --ldflags`
+	g++ -o dist/xbrz xbrz/xbrz.o xbrz.o -ljpeg -lpthread `libpng-config --ldflags`
 
 # xbrz library
 xbrz/xbrz.o: xbrz/xbrz.cpp xbrz/xbrz.h
